@@ -2,7 +2,7 @@
 """
 file: base.py
 Desc: Base model which will be shared among other models
-Authors:Joseph Tapano
+Authors:Yoseph Tapano
 """
 
 

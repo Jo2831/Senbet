@@ -2,7 +2,7 @@
 """
 file: hotel.py
 Desc: Hotel model
-Authors: Joseph Tapano
+Authors: Yoseph Tapano
 """
 from models.base import BaseModel, Base
 from sqlalchemy import (

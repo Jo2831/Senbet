@@ -1,0 +1,49 @@
+{% extends 'base.html' %} {% block head_content %}
+<link rel="stylesheet" href="../static/styles/register.css" />
+{% endblock %}{%block body_content %}
+<div
+  class="wrapper"
+  style="background-image: url('../static/assets/images/login/heart.png')"
+>
+  <div class="inner">
+    <form action="" method="POST">
+      <h3>Login To Your Account</h3>
+
+      <div class="form-wrapper">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          class="form-control"
+          id="username"
+          name="username"
+          placeholder="username"
+          required
+        />
+      </div>
+      <div class="form-wrapper">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <button type="submit" class="btn-submit">Sign In</button>
+    </form>
+    <div class="dont-have-an-account">
+      <p>
+        Don't have an account?
+        <a href="/sign-up">Sign Up</a>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block script_content%}
+<script
+  src="https://kit.fontawesome.com/f3ccd1938a.js"
+  crossorigin="anonymous"
+></script>
+{% endblock %}

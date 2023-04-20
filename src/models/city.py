@@ -2,7 +2,7 @@
 """
 file: city.py
 Desc: City model
-Authors: Joseph Tapano
+Authors: Yoseph Tapano
 """
 from models.base import BaseModel
 from models.base import Base
