@@ -28,7 +28,7 @@ def hotel_search():
         if not data or not len(data) or (
                 not cities and
                 not services):
-            hotel = storage.all(Hotel).values()
+            hotels = storage.all(Hotel).values()
             list_hotels = []
             [list_hotels.append(h.to_dict()) for h in hotels]
             return jsonify(list_hotels)
