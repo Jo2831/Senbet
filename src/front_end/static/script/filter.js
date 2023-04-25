@@ -15,8 +15,8 @@ const cardTemplate =
   '            style="height: 300px;' +
   '          />' +
   '          <div class="card-body">' +
-  '            <h5 class="card-title">{{ name }} Hotel</h5>' +
-  '            <p class="card-text">Card Price: ETB {{ entrance_price }}</p>' +
+  '            <h5 class="card-title">{{ name }} </h5>' +
+  '            <p class="card-text"> service price start from  {{ entrance_price }} ETB</p>' +
   '            <a' +
   '              href="/details?id={{ id }}&name={{ name }}"' +
   '              class="btn btn-success"' +

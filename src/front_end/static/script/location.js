@@ -1,5 +1,5 @@
 $(function () {
-  // Get the id of the hospital object
+  // Get the id of the hotel object
   const urlParams = new URLSearchParams(window.location.search);
   const id = urlParams.get('id');
 
@@ -50,7 +50,7 @@ $(function () {
 
     // Function that gets the required latitude and longitude values
     function getLocation(position) {
-      latitude = position.coords.latitude;
+      latitude = position.coords.lattitude;
       longitude = position.coords.longitude;
       const distance = calculateDistance(
         latitude,

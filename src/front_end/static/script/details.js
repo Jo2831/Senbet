@@ -1,6 +1,6 @@
 $(function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const hospitalId = urlParams.get('id');
+  const hotelId = urlParams.get('id');
   $('#btn-order-cards').click(function () {
     let userId = $(this).attr('data-id');
     if (userId) {
