@@ -12,10 +12,9 @@ from sqlalchemy import (
     Integer,
     Float,
     TEXT,
-    Table
+    Table,
 )
 from sqlalchemy.orm import relationship
-
 
 hotel_service = Table(
     'hotel_service',
